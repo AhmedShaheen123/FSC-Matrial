@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #000000;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#1f5b9e;
+  padding: 20px;
+}
+.flex h2{
+  color:white;
+  font-weight: bold;
+  font-size: 30px;
+}
+nav{
+    
+    background: rgb(39, 38, 38);
+    padding: 10px;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul li{
+  text-align: center;
+}
+nav ul li a{
+    display:block;
+    text-decoration: none;
+    margin:8px;
+    background-color:rgb(255, 147, 6);
+    color:rgb(255, 255, 255);
+    padding: 10px;
+}
+.bar ul li a{
+  text-decoration: none;
+}
+.bar{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.active{
+    background-color:green;
+}
+ul{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .width{
+      width: 100%;
+  }
+.content{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 130px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+} 
+.content .des{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.content .des h1{
+    font-size: 60px;
+}
+.content .des h3{
+    font-size: 60px;
+}
+.content .display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content .display div{
+    margin: 10px;
+    font-size: 70px;
+}
+.color{
+    color: rgb(255, 255, 255);
+}

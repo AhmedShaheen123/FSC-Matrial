@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+  width: 80%;
+}
+body{
+  background-color: #000000;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#1f5b9e;
+  padding: 20px;
+}
+.flex h2{
+  color:white;
+  font-weight: bold;
+  font-size: 30px;
+}
+nav{
+    
+    background: rgb(39, 38, 38);
+    padding: 10px;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul li{
+  text-align: center;
+}
+nav ul li a{
+    display:block;
+    text-decoration: none;
+    margin:8px;
+    background-color:rgb(255, 147, 6);
+    color:rgb(255, 255, 255);
+    padding: 10px;
+}
+.bar ul li a{
+  text-decoration: none;
+}
+.bar{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.active{
+    background-color:rgb(30, 0, 128);
+}
+ul{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .department{
+      display: flex;
+      justify-content: center;
+      text-align: justify;
+      align-items: center;
+      padding: 20px;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+  #accordion{
+      width: 100%;
+  }
+  .card{
+      margin: 10px;
+      padding: 0;
+      border: 0;
+      overflow: auto;
+  }
+  .card-header{
+      background-color:rgb(190, 141, 15);
+      width: 100%;
+      padding: 0;
+      height: 100%;
+  }
+  .collapse{
+      background-color:none;
+      overflow: hidden;
+  }
+.mb-0{
+    width: 100%;
+}
+button{
+    width: 100%;
+    text-decoration: none;
+    text-align: end;
+}
+.card-header .btn-style{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .card-body{
+      display: flex;
+      flex-direction: column;
+  }
+  .card-body i{
+      margin: 5px;
+      color: rgb(202, 116, 50);
+  }
+  .btn-link:after{
+      content: "\2212";
+      width: 35px;
+      font-size:15px;
+      text-align: center;
+      border-radius: 5px;
+      right: 15px;
+      position: absolute;
+      color: black;
+      font-weight: bold;
+      background: blanchedalmond;
+      
+  }
+  .btn-link.collapsed:after{
+      content: '\002B';
+  }
+  i{
+    padding: 5px;
+  }
